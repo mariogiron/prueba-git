@@ -5,6 +5,8 @@ const app = require("./src/app");
 // Config .env
 require("dotenv").config();
 
+console.log('Prueba para GIT');
+
 // Server creation
 const server = http.createServer(app);
 
